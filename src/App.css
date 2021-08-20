@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,html{
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white !important;
+  font-family:  Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+td{
+  font-size: 30px;
+}
+.btnDiv{
+  display: flex;
+  flex-direction: row;
+}
+.btnDiv button{
+  margin: 10px;
+  height: 40px;
+  padding: 8px;
+  outline: none;
+  background-color: pink;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.heading{
+  color:  green !important;
+  font-family: monospace;
+}
