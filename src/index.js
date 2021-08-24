@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App.jsx';
 import reportWebVitals from './reportWebVitals';
-
+import Calc from "./calc"
+import BgChanger from "./bgChanger.jsx"
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <BgChanger />
   </React.StrictMode>,
   document.getElementById('root')
 );
